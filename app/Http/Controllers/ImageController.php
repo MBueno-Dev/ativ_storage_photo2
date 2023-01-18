@@ -8,7 +8,7 @@ class ImageController extends Controller
 {
     public function store(Request $request)
     {
-        $request->photo1->storeAs('/public/images', 'file1.jpg');
-        $request->photo2->storeAs('/public/images', 'file2.jpg');
+        $request->photo11->storeAs('/public/images', 'file1.jpg');
+        $request->photo22->storeAs('/public/images', 'file2.jpg');
     }
 }
